@@ -1,6 +1,17 @@
 import turtle as turtle_module
 import random
 
+#Getting colors from an image
+# import colorgram
+# rgb_colors = []
+# colors = colorgram.extract('image.jpg', 30)
+# for i in colors:
+#     r= i.rgb.r
+#     g = i.rgb.g
+#     b = i.rgb.b
+#     new = (r, g, b)
+#     rgb_colors.append(new)
+
 turtle_module.colormode(255)
 tim = turtle_module.Turtle()
 tim.speed("fastest")
